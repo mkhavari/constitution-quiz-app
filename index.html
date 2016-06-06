@@ -4,11 +4,15 @@
 	<meta charset="UTF-8">
 	<title>US Constitution Quiz App</title>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="welcome">Welcome to the US Constitution Quiz App! Test your knowledge of the United States Constitution with the following five questions.</div>
-	<div class="question" id="first-question"></div>
+	<div class="welcome">
+		<h1>Welcome to the US Constitution Quiz App!</h1>
+		<h3>Test your knowledge of the United States Constitution with the following five questions.</h3>
+		<button class="begin">Begin</button>
+	</div>
+	<div class="question" id="first-question">
 		<span class="question-text">When was the Constitution ratified?</span>
 		<ul>
 			<li><button class="answer-one">September 17, 1787</button></li>
@@ -16,7 +20,8 @@
 			<li><button class="answer-three">July 4, 1776</button></li>
 			<li><button class="answer-four">July 14, 1789</button></li>
 		</ul>
-	<div class="question" id="second-question"></div>
+	</div>
+	<div class="question" id="second-question">
 		<span class="question-text">What are the first ten amendments to the US Constitution called?</span>
 		<ul>
 			<li><button class="answer-one">The Preamble</button></li>
@@ -24,7 +29,8 @@
 			<li><button class="answer-three">The Bill of Rights</button></li>
 			<li><button class="answer-four">The Articles of Confederation</button></li>
 		</ul>
-	<div class="question" id="third-question"></div>
+	</div>
+	<div class="question" id="third-question">
 		<span class="question-text">What five freedoms are protected by the First Amendment?</span>
 		<ul>
 			<li><button class="answer-one">Freedom of the press, freedom of speech, freedom of religion, freedom to peaceably assemble, freedom to petition the government for a redress of grievances.</button></li>
@@ -32,7 +38,8 @@
 			<li><button class="answer-three">Freedom of the press, freedom of speech, freedom of religion, right to vote, freedom to petition the government for a redress of grievances.</button></li>
 			<li><button class="answer-four">Freedom of the press, freedom of speech, right to bear arms, freedom to peaceably assemble, freedom to petition the government for a redress of grievances.</button></li>
 		</ul>
-	<div class="question" id="fourth-question"></div>
+	</div>
+	<div class="question" id="fourth-question">
 		<span class="question-text">Which amendment abolished slavery in the United States?</span>
 		<ul>
 			<li><button class="answer-one">The Eleventh Amendment</button></li>
@@ -40,7 +47,8 @@
 			<li><button class="answer-three">The Sixteenth Amendment</button></li>
 			<li><button class="answer-four">The Thirteenth Amendment</button></li>
 		</ul>
-	<div class="question" id="fifth-question"></div>
+	</div>
+	<div class="question" id="fifth-question">
 		<span class="question-text">When was the last time the Constitution was amended?</span>
 		<ul>
 			<li><button class="answer-one">1865</button></li>
@@ -48,16 +56,25 @@
 			<li><button class="answer-three">1942</button></li>
 			<li><button class="answer-four">1992</button></li>
 		</ul>
-	<div class="answer">
-		<span class="feedback" id="correct">Great Job!</span>
-		<span class="feedback" id="incorrect">Sorry!</span>
-		<span class="correct-answer-one"></span>
-		<span class="correct-answer-one"></span>
 	</div>
 	<div class="try-again">
 		<p>Your Final Score:<span id="score"></span></p>
 		<span><button>Try Again?</button></span>
 	</div>
-	<div class="counter"></div>
+	<div class="correct-answer" id="first">
+		<p>While the U.S. Constitution was signed on September 17, 1787, it did not go into effect until nine of the 13 states had ratified it. The ninth state to do so was New Hampshire on <b>June 21, 1788</b>.</p>
+	</div>
+	<div class="correct-answer" id="second">
+		<p>The first ten amendments to the U.S. Constitution are known as the <b>Bill of Rights</b>. The Preamble is the introduction to the U.S. Constitution. The Articles of Confederation was the constitution which bound the thirteetn states prior to the ratification of the U.S Constitution. The Gettysburg Address is a famous speech given by President Abraham Lincoln during the American Civil War, during a dedication of a soliders' cemetery after the Battle of Gettysburg.</p>
+	</div>
+	<div class="correct-answer" id="third">
+		<p>The First Amendment protects <b>freedom of the press, freedom of speech, freedom of religion, freedom to peaceably assemble, freedom to petition the government for a redress of grievances</b>. Slavery was still legal in the United States when the First Amendment was adopted. Also, at that time, the only people allowed to vote in the United States were property-owning white men. The right to bear arms is protected by the Second Amendment, not the First.</p>
+	</div>
+	<div class="correct-answer" id="fourth">
+		<p>Slavery in the United States was abolished by the <b>Thirteenth Amendment</b>. However, the Thirteenth Amendment makes an exception allowing for involuntary servitude as a punishment for a crime.</p>
+	</div>
+	<div class="correct-answer" id="fifth">
+		<p>The U.S. Constitution was last amended in <b>1992</b>. It prohibits any law altering the salary of members of Congress from taking effect until the start of the next set of terms for members of the House of Representatives. The amendment was submitted to the states for ratification on September 25, 1789, but was not ratified by enough states until May 7, 1992, setting a record ratification period of 202 years, 7 months, and 12 days.</p>
+	</div>
 </body>
 </html>
