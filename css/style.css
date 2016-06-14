@@ -51,3 +51,9 @@ h3,
 button {
 	margin: 0.5em;
 }
+
+.try-again,
+.correct-answer,
+.question {
+	display: none;
+}
